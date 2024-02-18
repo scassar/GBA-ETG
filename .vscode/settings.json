@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "stdbool.h": "c",
+        "characters.h": "c",
+        "stdint.h": "c",
+        "graphics.h": "c",
+        "optional": "cpp",
+        "system_error": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "stdio.h": "c",
+        "tonc_types.h": "c",
+        "unistd.h": "c",
+        "sound.h": "c",
+        "time.h": "c",
+        "string.h": "c"
+    }
+}
