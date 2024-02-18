@@ -4,8 +4,7 @@ This is my first entry into writing a basic GBA game.
 
 This project is using the bitmap mode 3 on the GBA. 
 
-![image](https://github.com/scassar/GBA-ETG/assets/2356898/b44198c8-b91c-4afd-b675-a9f7bc348744)
-
+![image](https://github.com/scassar/GBA-ETG/assets/2356898/60ea322e-4bca-497c-af66-064ee96cc00f)
 
 #Requirements
 
