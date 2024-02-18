@@ -846,12 +846,12 @@ Linker script and memory map
  .debug_abbrev  0x00000751      0x21f C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
  .debug_abbrev  0x00000970       0x14 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
 
-.debug_line     0x00000000     0x3931
+.debug_line     0x00000000     0x3939
  *(.debug_line)
- .debug_line    0x00000000     0x2caa main.o
- .debug_line    0x00002caa      0x2bf C:/devkitPro/libgba/lib\libgba.a(input.o)
- .debug_line    0x00002f69      0x950 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
- .debug_line    0x000038b9       0x78 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
+ .debug_line    0x00000000     0x2cb2 main.o
+ .debug_line    0x00002cb2      0x2bf C:/devkitPro/libgba/lib\libgba.a(input.o)
+ .debug_line    0x00002f71      0x950 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+ .debug_line    0x000038c1       0x78 C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
 
 .debug_frame    0x00000000      0x618
  *(.debug_frame)
@@ -859,13 +859,13 @@ Linker script and memory map
  .debug_frame   0x000004e8       0x80 C:/devkitPro/libgba/lib\libgba.a(input.o)
  .debug_frame   0x00000568       0xb0 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
 
-.debug_str      0x00000000      0xb0d
+.debug_str      0x00000000      0xb15
  *(.debug_str)
- .debug_str     0x00000000      0xb0d main.o
-                                0x881 (size before relaxing)
- .debug_str     0x00000b0d      0x236 C:/devkitPro/libgba/lib\libgba.a(input.o)
- .debug_str     0x00000b0d      0x334 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
- .debug_str     0x00000b0d       0xba C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
+ .debug_str     0x00000000      0xb15 main.o
+                                0x889 (size before relaxing)
+ .debug_str     0x00000b15      0x236 C:/devkitPro/libgba/lib\libgba.a(input.o)
+ .debug_str     0x00000b15      0x334 C:/devkitPro/libgba/lib\libgba.a(interrupt.o)
+ .debug_str     0x00000b15       0xba C:/devkitPro/libgba/lib\libgba.a(InterruptDispatcher.o)
 
 .debug_loc
  *(.debug_loc)
@@ -1000,7 +1000,7 @@ LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/../../../../arm-
 END GROUP
 LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/crtend.o
 LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/13.2.0/thumb/crtn.o
-OUTPUT(C:/Users/shaun/OneDrive/Desktop/Development/GBA/GBA-ETG/GBA-ETG.elf elf32-littlearm)
+OUTPUT(C:/Users/shaun/OneDrive/Desktop/Development/GBA-ETG/GBA-ETG/GBA-ETG.elf elf32-littlearm)
 LOAD linker stubs
 
 .debug_loclists

@@ -72,6 +72,7 @@ void setupGame(struct rect *player, struct gameInstance *game) {
 }
 
 // Purpose of this code is to draw the menu cursor location for the selection
+// Come back to clean this up
 void setMenuCursor(int menuPosition) {
 
   u16 colour = setColour(31,31,31);
@@ -102,7 +103,6 @@ void drawMenuBackground() {
     
     */
 
-    
     for (int i = 0; i < SCREEN_W; i= i+SCREEN_W/4*3) { 
       for(int x = i; x < i+SCREEN_W/4; x++) {
         for (int j = 0; j<SCREEN_H; j++) { 
