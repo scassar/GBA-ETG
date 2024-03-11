@@ -6,12 +6,12 @@ This project is using the bitmap mode 3 on the GBA.
 
 ![image](https://github.com/scassar/GBA-ETG/assets/2356898/60ea322e-4bca-497c-af66-064ee96cc00f)
 
-#Requirements
+### Requirements
 
 1) GBA Devkitpro & associated libraries
 
 
-#Thanks
+### Thanks
 
 A few projects helped me out to understand the flow, and in particular control of sound. 
 
