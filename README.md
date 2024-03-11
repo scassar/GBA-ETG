@@ -1,4 +1,4 @@
-# GBA (ESCAPE THE GODFATHER)
+# Game boy Advance (Escape the Godfather)
 
 This is my first entry into writing a basic GBA game. 
 
